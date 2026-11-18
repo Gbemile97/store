@@ -29,6 +29,21 @@ header p{color:#d6ebe0;font-size:18px;max-width:600px;margin:0}
 .soon .thumb small{color:#5b6660}
 .soon .go{background:#c9d1cd}
 footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mut);font-size:13.5px;text-align:center}
+.bh{display:flex;align-items:baseline;gap:12px;margin:0 0 6px}.bh h2{font-size:28px;letter-spacing:-.02em;margin:0}.bh span{font-size:12px;font-weight:800;letter-spacing:.12em;color:#c8862a}
+.bsub{color:var(--mut);margin:0 0 22px}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:22px;margin:0 0 70px}
+.bc{position:relative;border-radius:18px;padding:26px;text-decoration:none;color:#16201b;background:linear-gradient(135deg,#fff 0%,#fff7e6 100%);border:2px solid #e3a23b;box-shadow:0 14px 34px rgba(200,134,42,.15);display:flex;flex-direction:column;transition:transform .15s}
+.bc:hover{transform:translateY(-4px)}
+.bc.best{background:linear-gradient(140deg,#0f5a3c,#0b4630);color:#fff;border-color:#0f5a3c}
+.bc .rib{position:absolute;top:-12px;right:18px;background:#e3a23b;color:#0b3d29;font-size:11.5px;font-weight:800;letter-spacing:.06em;padding:5px 11px;border-radius:20px}
+.bc small{font-size:11.5px;font-weight:800;letter-spacing:.12em;color:#c8862a}
+.bc.best small{color:#e9c27a}
+.bc b{display:block;font-size:21px;line-height:1.2;margin:8px 0 10px;letter-spacing:-.01em}
+.bc ul{margin:0 0 18px;padding-left:18px;font-size:14.5px;line-height:1.6}
+.bc .pr{margin-top:auto;display:flex;align-items:center;gap:10px}
+.bc .pr strong{font-size:23px;white-space:nowrap}.bc .pr s{color:#8a948f;font-size:16px}.bc.best .pr s{color:#a9cbb9}
+.bc .pr em{margin-left:auto;white-space:nowrap;font-style:normal;font-weight:700;font-size:14px;background:#0f5a3c;color:#fff;padding:8px 14px;border-radius:10px}
+.bc.best .pr em{background:#e3a23b;color:#0b3d29}
 </style>
 </head>
 <body>
@@ -70,11 +85,24 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mut);font-siz
       <div class="body"><p>Next rent due dates, part payments and arrears, due-soon alerts, occupancy and net rental income.</p>
       <div class="foot"><span class="price">₦5,000</span><span class="go">View →</span></div></div>
     </a>
-    <div class="card soon">
-      <div class="thumb"><small>COMING SOON</small><b>Remote Support Job Starter Kit</b></div>
-      <div class="body"><p>Land your first remote customer support job: CV, test answers, macros and where to apply.</p>
-      <div class="foot"><span class="price">Soon</span><span class="go">Coming soon</span></div></div>
-    </div>
+    <a class="card" href="./remote-support-job-kit/">
+      <div class="thumb"><small>KIT · PLAYBOOK + TEMPLATES + CV</small><b>Remote Support Job Starter Kit</b></div>
+      <div class="body"><p>Land your first remote customer support job: playbook, 30 reply templates, practice tests, CV template and a 30-day plan.</p>
+      <div class="foot"><span class="price">₦7,500</span><span class="go">View →</span></div></div>
+    </a>
+  </div>
+  <div class="bh" id="bundles"><h2>Bundles</h2><span>SAVE UP TO 50%</span></div>
+  <p class="bsub">Get more for less. Every bundle is one download, organised in folders.</p>
+  <div class="bgrid">
+    <a class="bc best" href="https://selar.com/e4m431no1t"><div class="rib">BEST VALUE</div><small>EVERYTHING · 6 PRODUCTS</small><b>Sabi Tools Complete Collection</b>
+      <ul><li>Job Application Kit</li><li>Remote Support Job Starter Kit</li><li>All 4 money &amp; business trackers</li></ul>
+      <div class="pr"><strong>₦17,500</strong><s>₦35,500</s><em>Get it →</em></div></a>
+    <a class="bc" href="https://selar.com/77777l75to"><small>4 TRACKERS</small><b>Money &amp; Business Trackers Bundle</b>
+      <ul><li>Small Business Tracker</li><li>Freelancer Income Tracker</li><li>Naira Budget Planner</li><li>Landlord Rent Tracker</li></ul>
+      <div class="pr"><strong>₦12,500</strong><s>₦21,500</s><em>Get it →</em></div></a>
+    <a class="bc" href="https://selar.com/637w01j788"><small>2 KITS</small><b>Job Seeker Bundle</b>
+      <ul><li>Job Application Kit</li><li>Remote Support Job Starter Kit</li></ul>
+      <div class="pr"><strong>₦10,000</strong><s>₦14,000</s><em>Get it →</em></div></a>
   </div>
 </main>
 <footer>© 2026 Sabi Tools · Secure checkout via Selar</footer>
